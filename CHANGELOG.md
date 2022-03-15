@@ -1,37 +1,33 @@
 # Change Log
 
-## [1.5.0] 2019-12-18
-### Updates
-- added latest version of Bootstrap `4.4.1`
+## [1.3.0] 2019-04-12
+### Bugfixing & Bootstrap 4.3.1 integration
+- Bootstrap Switch library updated
+- NoUiSlider library updated
 
-## [1.4.0] 2019-07-04
-### Updates
-- added latest version of Bootstrap `4.3.1`
-
-## [1.3.0] 2019-02-08
-### Updates, Bugfixing, Improvements
-- added latest version of Bootstrap `4.2.1`
-- all plugins out of date were updated to the latest version
-- `btn-simple` removed
-- added `btn-outline` from the bootstrap
-- docs updated all plugins versions
-
-## [1.2.0] 2018-10-12
-### Bootstrap 4.1.3 update
-- `Chart.js` library updated
-- Responsive fixes
-- Other small bug fixes
-
-## [1.1.0] 2018-05-04
-### Bootstrap 4.1.0 update
-- Archive cleaned
-- Other small bug fixes
-
-## [1.0.1] 2018-02-21
-### Bugfixing
-- Fixed some issues for documentation pages
-- Scss cleaned
+## [1.2.0] 2018-07-31
+### Bugfixing & Bootstrap 4.1.1 integration
+- Added section `How to enable Burger Menu` in Docs
+- Added section `Visual Inspector` in Docs
+- Added new documentation layout
+- Updates for `NoUISlider` to the latest version
+- Datepicker select date fixed
+- Fixed burger-menu
+- IE lateral scrolling fixed
+- Github issues  
 - Other bug fixes
 
-## [1.0.0] 2018-02-14
+## [1.1.0] 2017-08-30
+### Bootstrap 4 Beta
+- Changed the library Tether.js with Popper.js
+- Renamed the old classes from Bootstrap 4 Alpha with the new Bootstrap 4 Beta classes
+- Small bug fixes
+- Added burger menu with sidebar menu for desktop/tablet (used to be only in mobile)
+- Options for regular Bootstrap Collapse Navbar (using class `.bootstrap-collapse` on `<html>`) and Sidebar Collapse Navbar (using class `.css-collapse` on `<html>`)
+
+## [1.0.1] 2017-06-28
+### Icons Update
+- Changed source files for the icons, optimized from 2MB to 100KB
+
+## [1.0.0] 2017-05-16
 ### Original Release
