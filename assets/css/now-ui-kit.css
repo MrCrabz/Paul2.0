@@ -5603,11 +5603,13 @@ img {
 }
 
 .index-page .page-header {
-  height: 125vh;
+  height: 100vh;
 }
 
 .index-page .page-header .container>.content-center {
-  top: 37%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }
 
 .index-page .page-header .category-absolute {
@@ -6005,7 +6007,7 @@ img {
 
 .page-header>.container {
   z-index: 2;
-  padding-top: 12vh;
+  padding-top: 0vh;
   padding-bottom: 40px;
 }
 
@@ -6079,6 +6081,7 @@ img {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* Standard syntax */
+  /* mix-blend-mode: darken; */
 }
 
 .section-story-overview {
